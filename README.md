@@ -20,5 +20,8 @@ Here is the application description as published on [Google Play](https://play.g
 > "With over 36,000 stock tickers supported, there's a pretty good chance that you are going to find all the stocks you want to follow. We included 5 exchanges into the first release: NASDAQ Stock Exchange, New York Stock Exchange (NYSE), Honk Kong Stock Exchange (HKSE), London Stock Exchange (LSE), and a collection of more than 23,000 mutual funds. There's fun for everyone!
 We are really excited about Stocktile and we sincerely hope you like it as much as we do! Thank you so much for reading this description and considering Stocktile."
 
+##Requirements
+This project was created using [Eclipse](www.eclipse.org). You can compile it as any other Android project. There are no special requirements, and everything you need has been included in this repository.
+
 ##License
 This code is published using the Apache License Version 2.0. For more information, visit the [Apache License](http://www.apache.org/licenses/LICENSE-2.0) page.
