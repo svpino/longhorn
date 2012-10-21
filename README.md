@@ -1,7 +1,6 @@
 #Longhorn
 Longhorn is the code name of [Stocktile](https://play.google.com/store/apps/details?id=com.svpino.longhorn), an Android application to follow stock tickers from different markets around the world.
 
-##Application description
 Here is the application description as published on [Google Play](https://play.google.com/store/apps/details?id=com.svpino.longhorn):
 
 > "Check the stock market in half a second. Literally. Stocktile's beautiful interface puts in front of you all the information you need to just get in and get out."
@@ -20,3 +19,6 @@ Here is the application description as published on [Google Play](https://play.g
 
 > "With over 36,000 stock tickers supported, there's a pretty good chance that you are going to find all the stocks you want to follow. We included 5 exchanges into the first release: NASDAQ Stock Exchange, New York Stock Exchange (NYSE), Honk Kong Stock Exchange (HKSE), London Stock Exchange (LSE), and a collection of more than 23,000 mutual funds. There's fun for everyone!
 We are really excited about Stocktile and we sincerely hope you like it as much as we do! Thank you so much for reading this description and considering Stocktile."
+
+##License
+This code is published using the Apache License Version 2.0. For more information, visit the [Apache License](http://www.apache.org/licenses/LICENSE-2.0) page.
