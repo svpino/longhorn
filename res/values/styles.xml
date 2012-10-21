@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2012 Santiago Valdarrama
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at 
+  
+  http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+ -->
+ 
+<resources>
+
+    <style name="stock_overview_table_label">
+        <item name="android:textColor">#cccccc</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">11dp</item>
+    </style>
+
+    <style name="stock_overview_table_value">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">11dp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <style name="dialog_highlighted_text">
+        <item name="android:textColor">#0099cc</item>
+    </style>
+
+    <style name="dialog_normal_text">
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="dialog_normal_description">
+        <item name="android:textColor">#999999</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    
+    <style name="tab_widget_item_text">
+        <item name="android:textAppearance">@null</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    
+</resources>

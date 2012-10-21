@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2012 Santiago Valdarrama
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at 
+  
+  http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+ -->
+ 
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="application_name">Stocktile</string>
+    <string name="search_hint">Search a ticker</string>
+    <string name="search_settings_description">Stock tickers and company names</string>
+
+    <item name="databaseVersion" format="integer" type="string">1</item>
+    
+    <string name="empty"></string>
+    <string name="debug_sample1">Sample Text</string>
+    <string name="debug_sample2">$23,123,234.09</string>
+    
+    <string name="label_cancel">Cancel</string>
+    <string name="label_remove">Remove</string>
+    <string name="label_ok">OK</string>
+    <string name="label_agree">I Agree</string>
+    <string name="label_disagree">I Disagree</string>
+    <string name="label_later">Later</string>
+    <string name="label_purchase">Sounds good!</string>
+    <string name="label_cab_selected">%1$s selected</string>
+    <string name="label_supported_stock_tickers">36,000+</string>
+    <string name="label_supported_market_exchanges">5</string>
+    
+    <string name="terms_and_conditions_title">Terms and Conditions</string>
+    <string name="terms_and_conditions_message">Welcome to %1$s! We really appreciate that you installed our application and hope you will enjoy it as much as we do.\r\n\r\nBefore you start, we would like you to take a moment and read the following terms and conditions for using %1$s.\r\n\r\nBy downloading, installing or using this application, you agree to the following:\r\n\r\n1. All the information presented is provided by Yahoo! Finance and is delayed as specified by their guidelines.\r\n\r\n2. We do not verify the accuracy of the information and disclaim any obligation to do so.\r\n\r\n3. We shall not be liable for any errors, omissions or other defects in the information presented.\r\n\r\n4. All the information is provided \"as is\" for personal information purposes only, and it\'s not intended for trading purposes or advise. Please consult a financial representative to verify the accuracy of the information before executing any trade.\r\n\r\n5. We do not guarantee the presented information and shall not be liable for any loss caused by the use of this application.</string>
+    
+    <string name="purchase_title">Upgrade to %1$s HD!</string>
+    <string name="purchase_message">Love %1$s? Ready for an upgrade?\r\n\r\nThe HD version of the application includes more exciting features and no ads, plus more than %2$s stock tickers over %3$s market exchanges (NASDAQ, NYSE, HKSE, LSE, and Mutual Funds).\r\n\r\nGo ahead and check it out on the Google Play Store!</string>
+    
+    <string name="activity_dashboard_no_connectivity_title">No Internet connection</string>
+    <string name="activity_dashboard_no_connectivity_message">You appear to be offline, so we can\'t retrieve the latest market information for %1$s.\r\n\r\nHowever, the ticker will be added to your watch list, and as soon as you come back online we are going to update it\'s market information.</string>
+    
+    <string name="activity_dashboard_delete_stock_title">{0,choice,1#Remove {1}?|2#Remove selected tickers?}</string>
+    <string name="activity_dashboard_delete_stock_message">{0,choice,1#Are you sure you want to remove {1} from your watch list?\r\n\r\nYou can always add it back later if you want.|2#Are you sure you want to remove the selected tickers from your watch list?\r\n\r\nYou can always add them back later if you want.}</string>
+    
+    <string name="dialog_search_title">Results for \"%1$s\"</string>
+    <string name="dialog_search_empty_title">No results found</string>
+    <string name="dialog_search_empty_message">There are no stock tickers containing the words \"%1$s\" in either their symbol or company name.\r\n\r\nMake sure you spelled your query correctly and try again.</string>
+
+    <string name="stock_overview_last_trade_date_label">DATE</string>
+    <string name="stock_overview_open_label">OPEN</string>
+    <string name="stock_overview_market_capital_label">MKT CAP</string>
+    <string name="stock_overview_range_label">RANGE</string>
+    <string name="stock_overview_volume_label">VOL / AVG</string>
+    <string name="stock_overview_volume_label_volume">VOL</string>
+    <string name="stock_overview_volume_label_average_volume">AVG VOL</string>
+    <string name="stock_overview_pe_label">P/E</string>
+	<string name="stock_overview_eps_label">EPS</string>
+	<string name="stock_overview_52_weeks_label">52 WEEK</string>
+	<string name="stock_overview_dividend_label">DIVIDEND</string>
+	<string name="stock_overview_target_price_label">TGT PRICE</string>
+	    
+    <string name="fragment_stock_overview_share_dialog_title">Share</string>
+    <string name="fragment_stock_overview_share_subject">%1$s trading at %2$s</string>
+    <string name="fragment_stock_overview_share_message">%1$s is trading at %2$s | %3$s - Shared from %4$s http://goo.gl/LxFr5</string>
+    
+    <string name="fragment_stock_list_add_menu_item">Add a ticker</string>
+    <string name="fragment_stock_list_share_menu_item">Share this ticker</string>
+    <string name="fragment_stock_list_delete_menu_item">Delete selection</string>
+    <string name="fragment_stock_list_tile_contextual_menu_title">%1$s</string>
+    <string name="fragment_stock_list_tile_contextual_menu_share_item">Share this ticker</string>
+    <string name="fragment_stock_list_tile_contextual_menu_delete_item">Delete this ticker</string>
+    <string name="fragment_stock_list_purchase_menu_item">Upgrade to HD</string>
+    
+    <color name="border_red">#d0726e</color>
+    <color name="border_green">#b4cd7b</color>
+    <color name="border_black">#9c9c9c</color>
+    
+</resources>
