@@ -16,14 +16,14 @@
  -->
  
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.svpino.longhorn.lite"
+    package="com.svpino.longhorn"
     android:installLocation="preferExternal"
-    android:versionCode="5"
-    android:versionName="1.2" >
+    android:versionCode="6"
+    android:versionName="1.3" >
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="16" />
+        android:targetSdkVersion="17" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -32,6 +32,7 @@
         android:hardwareAccelerated="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/application_name"
+        android:allowBackup="true"
         android:theme="@style/Theme.Longhorn" >
         <activity
             android:name=".activities.DashboardActivity"
@@ -58,12 +59,12 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
 
         <service
-            android:name=".MarketCollectorService"
+            android:name="com.svpino.longhorn.MarketCollectorService"
             android:exported="false" />
-        <service android:name=".LonghornBillingService" />
+        <service android:name="com.svpino.longhorn.LonghornBillingService" />
 
         <receiver
-            android:name=".receivers.ConnectivityBroadcastReceiver"
+            android:name="com.svpino.longhorn.receivers.ConnectivityBroadcastReceiver"
             android:enabled="false"
             android:exported="false" >
             <intent-filter>
@@ -71,7 +72,7 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name=".receivers.BatteryBroadcastReceiver"
+            android:name="com.svpino.longhorn.receivers.BatteryBroadcastReceiver"
             android:exported="false" >
             <intent-filter>
                 <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
@@ -79,13 +80,13 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name=".receivers.MarketCollectionReceiver"
+            android:name="com.svpino.longhorn.receivers.MarketCollectionReceiver"
             android:exported="false" >
         </receiver>
 
         <provider
-            android:name="com.svpino.longhorn.lite.providers.SearchContentProvider"
-            android:authorities="com.svpino.longhorn.lite.providers.SearchContentProvider" />
+            android:name="com.svpino.longhorn.providers.SearchContentProvider"
+            android:authorities="com.svpino.longhorn.providers.SearchContentProvider" />
     </application>
 
 </manifest>

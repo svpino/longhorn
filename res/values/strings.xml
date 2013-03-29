@@ -69,7 +69,8 @@
 	    
     <string name="fragment_stock_overview_share_dialog_title">Share</string>
     <string name="fragment_stock_overview_share_subject">%1$s trading at %2$s</string>
-    <string name="fragment_stock_overview_share_message">%1$s is trading at %2$s | %3$s - Shared from %4$s http://goo.gl/LxFr5</string>
+    <string name="fragment_stock_overview_share_message_google">%1$s is trading at %2$s | %3$s - Shared from %4$s http://goo.gl/LxFr5</string>
+    <string name="fragment_stock_overview_share_message_amazon">%1$s is trading at %2$s | %3$s - Shared from %4$s http://amzn.to/14t2ieU</string>
     
     <string name="fragment_stock_list_add_menu_item">Add a ticker</string>
     <string name="fragment_stock_list_share_menu_item">Share this ticker</string>

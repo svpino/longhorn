@@ -15,7 +15,7 @@
   limitations under the License.
  -->
  
-<com.svpino.longhorn.lite.layouts.BorderRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.svpino.longhorn.layouts.BorderRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/tileLayout"
     android:layout_width="wrap_content"
     android:layout_height="90dp" >
@@ -28,4 +28,4 @@
         android:background="@drawable/ic_new"
         android:contentDescription="@string/fragment_stock_list_add_menu_item" />
 
-</com.svpino.longhorn.lite.layouts.BorderRelativeLayout>
+</com.svpino.longhorn.layouts.BorderRelativeLayout>

@@ -30,7 +30,7 @@
         android:contentDescription="@string/empty"
         android:scaleType="fitXY" />
 
-    <com.svpino.longhorn.lite.layouts.BorderRelativeLayout
+    <com.svpino.longhorn.layouts.BorderRelativeLayout
         android:id="@+id/stockOverviewContentLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -107,6 +107,6 @@
 
         <include layout="@layout/stock_overview_table" />
 
-    </com.svpino.longhorn.lite.layouts.BorderRelativeLayout>
+    </com.svpino.longhorn.layouts.BorderRelativeLayout>
 
 </RelativeLayout>
